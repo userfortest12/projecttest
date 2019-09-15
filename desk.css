@@ -1,0 +1,312 @@
+.nav {
+        background-color: black;
+       
+    } 
+    
+
+ #menu nav li{
+        display: inline-block;
+    }
+
+  
+
+   .nav_list {
+        margin: 0;
+        padding:0px;
+        list-style: none;
+        text-align: right;
+        text-decoration: none;
+        margin-right:10px;
+    }
+
+.nav_list li {
+        display: inline-block;
+        padding: 2%;
+        padding-top: 0;
+    } 
+ 
+
+.ul_list li{
+    padding: 5%;
+  }
+
+
+.ul_list {
+        margin: 0;
+        padding:0px;
+        list-style: none;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+
+.btn_open{
+  display: none;
+ 
+}
+    
+
+    a{
+        padding: 5px;
+        text-decoration: none;
+        color: darkcyan;
+    }
+
+    a:hover{
+        color: red;
+    }
+
+    a.active, .active:active{
+        color: red;
+    }
+
+
+    body {     
+        margin: 0;
+    }
+
+   .section_1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+   }
+   
+.section_background{
+        background-color:snow;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+   }
+.section_background2{
+       background-color: lightgray;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+   }
+
+
+.section_5{
+        background-color: lightgray;
+        display: flex;
+        height: 600px;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+   }
+
+
+    .section_first {
+        word-wrap: break-word;
+        background-color: cornflowerblue;
+        padding: 2%;
+        text-align: justify;
+        font-size: 20px;
+        border: 1px solid gray;
+       
+    }
+
+
+    .section_second {
+        word-wrap: break-word;
+        word-spacing: -2px;
+        background-color: inherit;
+        width: 400px;
+        margin: 20px;
+        margin-top: -10px;
+        margin-bottom: 40px;
+        padding: 2%;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+
+
+
+.section_fifth{
+        word-wrap: break-word;
+        background-color: transparent;
+        height: 160px;
+        width: 200px;
+        padding: 3%;
+        text-align: center;
+        margin: 30px;
+        margin-top: 0;
+        font-size: 18px;
+      
+   }
+
+
+
+     #color {
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: red;
+    }
+
+    #direito {
+        width: 300px;
+     }
+
+    #esquerdo {
+        background-image: url("image/forest.jpg");
+        background-size: cover;
+        flex-grow: 1;
+     }
+
+    #footer {
+        height: 80px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 2%;
+        background-color: black;
+        color: darkcyan;
+    }
+
+    #titulo_section {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 70px; 
+        margin-bottom: 25px;
+        width: 100%;
+        font-weight: bolder;
+    }
+
+    #titulo {
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .plans_titles{
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: blue;
+    }
+   
+    p.paragrafo {
+        margin: 10px;
+    }
+
+   
+  
+
+   
+   .control{
+        display: flex;
+        justify-content: center;
+        color: blue;
+    }
+
+.large{
+  font-size: 6rem;
+}
+
+
+    .btn{
+        vertical-align: center;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        width: 110px;
+        cursor: pointer;
+        text-transform: uppercase;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+   
+   }
+
+    .btn_color{
+        background-color: transparent;
+        color: blue;
+        border: 1px solid blue;
+        
+   }
+
+    .btn_color:active{
+        border-color:blue;
+   }
+
+    .btn_color:focus{
+        border-color:blue;
+   }
+
+    #lower_padding li{
+        padding: 4%;
+   }
+
+    #up{
+       margin-top: 42px;
+       
+   }
+
+    #down{
+        margin-top: 75px;
+        
+   }
+
+   .links_product{
+        text-decoration: none;
+        
+   }
+
+
+
+
+   .Product_background{
+         background-color: blue;
+         flex-grow: 1;
+         
+    }
+
+
+
+
+.div_contacts{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        width:100%;
+        
+}
+
+.contacts_titles{
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: black;
+}
+
+.titulo_section_con{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 100px; 
+        width: 100%;
+        font-weight: bolder;
+}
+
+#palavra_logo{
+  
+  width: 50px;
+  color: white;
+  position: relative;
+  margin-left: 40px;
+  top: 20px;
+  left:0;
+  
+}
+
+.icon_menu{
+  width: 20px;
+  color: blue;
+  position: absolute;
+  margin-left: 10px;
+  top: 20px;
+  left:0;
+}
