@@ -1,2 +1,1 @@
-#Project html
-About first contact html and css
+# Site resposive without framework, just html and css with little bi javascript 
