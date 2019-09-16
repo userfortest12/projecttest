@@ -1,1 +1,1 @@
-# Site resposive without framework, just html and css with little bi javascript 
+# Site resposive without framework, just html and css with little bit javascript 
